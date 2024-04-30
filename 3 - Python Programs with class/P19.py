@@ -17,3 +17,6 @@ m1 = ArmIntervel()
 lower = int(input("Enter lower range: "))
 upper = int(input("Enter upper range: "))
 m1.arm(lower,upper)
+
+#Can write above program in one line as below:-
+#print("Armstrong numbers in the interval:", [num for num in range(*(map(int, input("Enter lower and upper range: ").split()))) if num == sum(int(d)**len(str(num)) for d in str(num))])

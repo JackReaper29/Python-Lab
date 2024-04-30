@@ -14,3 +14,6 @@ class SumNaturalNumber():
 m1 = SumNaturalNumber()
 num = int(input("Enter a number: "))
 m1.sum(num)
+
+#Can write above program in one line as below:-
+#print("Sum of N natural numbers is:", (lambda n: n*(n+1)/2)(int(input("Enter a number: "))))
